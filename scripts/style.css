@@ -91,7 +91,7 @@ button:hover:active:before {
   z-index: 4;
 }
 .show {
-  position: inherit;
+  position: absolute;
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
