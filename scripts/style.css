@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: auto;
   background: #050801;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
