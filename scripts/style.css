@@ -81,7 +81,7 @@ button:hover:active:before {
   }
 }
 
-.popuptext {
+.PoPVideo {
   position: absolute;
   visibility: hidden;
   color: #fff;
@@ -93,26 +93,40 @@ button:hover:active:before {
 .show {
   position: absolute;
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: shoUP 2.5s alternate ease-in;
+  animation: shoUP 2.5s alternate ease-in;
+  pointer-events: none;
 }
 
 .btn-hidden {
   visibility: hidden;
 }
-@-webkit-keyframes fadeIn {
+
+@-webkit-keyframes shoUP {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+  }
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(100%);
   }
 }
-@keyframes fadeIn {
+@keyframes shoUP {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+  }
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(100%);
   }
 }
