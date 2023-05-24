@@ -88,9 +88,6 @@ button:hover:active:before {
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
   z-index: 4;
 }
 .show {
