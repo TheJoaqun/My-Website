@@ -103,6 +103,11 @@ button:hover:active:before {
   visibility: hidden;
 }
 
+footer {
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @-webkit-keyframes shoUP {
   from {
     opacity: 0;
